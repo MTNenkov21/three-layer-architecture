@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="../presentation-logic-layer/script.js"></script>
+  <title>Three-layer-architecture</title>
+ 
+</head>
+<body>
+  <div class="box">
+    <h1>Login</h1>
+    <form action="/submit" method="post">
+      <label for="name">Username:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your username"><br>
+      <label for="Password">Password:</label>
+      <input type="password" id="Password" name="Password" placeholder="Enter your password">
+      <button type="button" onclick="validateLogin()">Login</button>
+    </form>
+  </div>
+</body>
+</html>
